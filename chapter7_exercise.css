@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content:"";
+  display:block;
+  clear:both;
+  }
+.top{
+    background-image: url(img7/mv.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+}
+
+main{
+  margin: 50px 0;
+}
+
+.headline{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.service{
+    width: 840px;
+    margin: 30px auto;
+   
+}
