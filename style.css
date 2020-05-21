@@ -16,16 +16,37 @@ display:block;
 clear:both;
 }
 
+header, nav, h2, .main-visual, footer{
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header{
   width: 90%;
   padding: 15px 0;
   margin: 0 auto 15px;
+  position: relative;
+  text-align: center;
 }
 
 header .headline{
   font-size: 32px;
   text-align: center;
 }
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+
+
 
 .nav-list{
   text-align: center;
@@ -120,6 +141,7 @@ main {
   font-size: 12px;
   display: inline;
 }
+
 
 .category {
   display: inline-block;
